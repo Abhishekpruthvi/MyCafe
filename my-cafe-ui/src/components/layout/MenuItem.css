@@ -1,0 +1,27 @@
+  .list {
+    list-style-type: none;
+    align-items: flex-start;
+  }
+  
+  .list-item {
+   background-color: #6495ED;
+   padding: 0% !important;
+   margin-top: -10px;
+   margin-bottom: -10px;
+   height: 60px;
+  }
+  
+  .list-item-button {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .list-item-icon {
+    width: 50px !important;
+  }
+
+  .list-item-text {
+    padding:0;
+  }
+  

@@ -1,0 +1,249 @@
+.data-table {
+  // table-layout: fixed;
+  background: #fff;
+  width: 100%;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.data-table tr th {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+.data-table tr td {
+  text-align: center;
+  font-size: 13px;
+  padding: 0.5rem;
+}
+.data-table tr th,
+.data-table tr td {
+  overflow-x: auto;
+  text-overflow: ellipsis;
+  // white-space: nowrap;
+  /* padding: 1rem 2rem; */
+}
+.data-table .fa-line-chart {
+  padding: 0.5rem;
+  color: rgb(41, 106, 171);
+  font-size: 16px;
+}
+.data-table tbody {
+  background: #fff;
+}
+
+.data-table table {
+  border-spacing: 0;
+  border: 1px solid black;
+}
+.data-table table tr td:last-child {
+  border-bottom: 0;
+}
+
+.data-table th,
+.data-table td {
+  max-width: 150px;
+  margin: 0;
+  padding: 0.5rem;
+  border: 1px solid #f1eaf0;
+  /* border-bottom: 1px solid black;
+  border-right: 1px solid black; */
+}
+
+.data-table thead {
+  background: #f6f9fc;
+}
+.data-table-pagination {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+.info-text {
+  color: #5799d1;
+}
+// .critical-lable {
+//   color: #f3361c;
+// }
+.alert-header,
+
+.empty {
+  color: #000000;
+}
+// .awaiting-data {
+//   color: #e6b800;
+// }
+.chilled {
+  color: #3794fc;
+}
+/* .total-alert-table .export-icon {
+  left: 6rem;
+} */
+
+/* Select Box */
+@font-face {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v36/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2)
+    format("woff2");
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+/* Check Box Style */
+
+// .container-checkbox {
+//   position: relative;
+//   cursor: pointer;
+//   -webkit-user-select: none;
+//   -moz-user-select: none;
+//   -ms-user-select: none;
+//   user-select: none;
+//   padding: 0rem 1rem;
+// }
+
+// .container-checkbox input {
+//   position: absolute;
+//   opacity: 0;
+//   cursor: pointer;
+// }
+
+// .container-checkbox .checkmark {
+//   position: absolute;
+//   top: 4px;
+//   left: 10px;
+//   height: 20px;
+//   width: 20px;
+//   background-color: #eee;
+//   border: 2px solid #c1c1c1;
+//   border-radius: 4px;
+// }
+
+// .container-checkbox:hover input ~ .checkmark {
+//   background-color: #ccc;
+// }
+
+// .container-checkbox input:checked ~ .checkmark {
+//   background-color: #2196f3;
+// }
+
+// .container-checkbox .checkmark:after {
+//   content: "";
+//   position: absolute;
+//   display: none;
+// }
+
+// .container-checkbox input:checked ~ .checkmark:after {
+//   display: block;
+// }
+
+// .container-checkbox .checkmark:after {
+//   left: 5px;
+//   top: 2px;
+//   width: 5px;
+//   height: 10px;
+//   border: solid white;
+//   border-width: 0 3px 3px 0;
+//   -webkit-transform: rotate(45deg);
+//   -ms-transform: rotate(45deg);
+//   transform: rotate(45deg);
+// }
+
+/* .role-table .export-icon {
+  left: 2rem;
+} */
+/* 
+.role-table .card-dropdown {
+  right: 0px;
+} */
+
+// .no-border-table th,
+// .no-border-table td {
+//   border: none;
+// }
+
+// .alert-list-header .head-title {
+//   padding: 0px;
+// }
+// .alert-list-header .btn-primary {
+//   margin-top: 0.5rem;
+// }
+
+//for green switch button
+// .data-table .MuiSwitch-colorSecondary.Mui-checked + .MuiSwitch-track {
+//   background-color: #067533;
+// }
+// .data-table .MuiSwitch-colorSecondary.Mui-checked {
+//   color: #fff;
+// }
+// .data-table .MuiSwitch-colorSecondary.Mui-checked:hover {
+//   background-color: rgba(44, 216, 23, 0.08);
+// }
+/////////////////////////////
+/* Tale Pop Up Checkbox */
+
+// .user-checklist .MuiButton-containedPrimary {
+//   padding: 0.5rem 7rem;
+//   margin: 1rem auto;
+//   text-transform: capitalize;
+// }
+// .user-checklist .MuiDialogContent-dividers {
+//   border: none;
+// }
+// .user-checklist .MuiCheckbox-colorPrimary.Mui-checked {
+//   color: #656565;
+// }
+// .minh-100 {
+//   min-height: 100%;
+// }
+// .alert-action .MuiSvgIcon-root {
+//   margin-right: 5px;
+// }
+
+// .dropdown {
+//   cursor: pointer;
+// }
+// .dropdown-item {
+//   width: 95%;
+//   margin-left: 0 !important;
+// }
+
+// .dropdown-item a {
+//   color: #495057;
+//   text-decoration: none;
+//   font-size: 13px;
+// }
+
+// .page-btm-data select {
+//   border: 2px solid #d4dce0;
+//   border-radius: 6px;
+//   padding: 0.3rem;
+//   margin-left: 1rem;
+//   color: #7d7d7d;
+//   font-weight: 600;
+// }
+
+// .page-btn button {
+//   background: none;
+//   border: none;
+//   text-transform: uppercase;
+//   font-weight: 600;
+//   color: #4d9ef9;
+//   cursor: pointer;
+//   font-size: 12px;
+// }
+// .page-btn button[disabled] {
+//   color: #97a4ba;
+//   cursor: default;
+// }
+
+/* Info Table */
+
+// .info-table .data-table tr td {
+//   padding: 0.5rem;
+// }
+// .info-table .data-table tr th {
+//   padding: 0.5rem;
+// }
+
+// .info-bell i {
+//   padding: 0 0.5rem;
+// }
